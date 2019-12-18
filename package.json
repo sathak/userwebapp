@@ -1,0 +1,49 @@
+{
+  "name": "UserPage",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.js",
+  "keywords": [
+    "react",
+    "webpack",
+    "starter-kit"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.4.1",
+    "create-react-class": "^15.6.3",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-day-picker": "^7.4.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
