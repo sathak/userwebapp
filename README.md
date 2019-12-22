@@ -13,3 +13,6 @@ Run the command on project directory
 npm start
 ```
 [See live result](https://0521q.csb.app/userlist)
+
+Deployed in Heroku and find the link below
+[Deploted in heroku cloud](https://user-webapp.herokuapp.com)
