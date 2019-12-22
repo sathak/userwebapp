@@ -2,12 +2,10 @@
   "name": "UserPage",
   "version": "0.1.0",
   "private": true,
-  "main": "./src/index.js",
-  "keywords": [
-    "react",
-    "webpack",
-    "starter-kit"
-  ],
+   "engines": {
+     "node" : ">=8.0.0 <11.0.0" ,
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.4.1",
@@ -27,11 +25,11 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "start-react": "webpack-dev-server",
     "start": "react-scripts start",
     "build-react": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+    "start-react": "webpack-dev-server",
   },
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
